@@ -9,13 +9,7 @@ interface ChildrenProps {
     children: ReactNode
 }
 const firebaseConfig = {
-    apiKey: "AIzaSyCSorESWxd1M9bZOPf3JunxwmihhOuJKyI",
-    authDomain: "kunal-app-14939.firebaseapp.com",
-    databaseURL: "https://kunal-app-14939-default-rtdb.firebaseio.com",
-    projectId: "kunal-app-14939",
-    storageBucket: "kunal-app-14939.appspot.com",
-    messagingSenderId: "94453707364",
-    appId: "1:94453707364:web:ad10f231e57ca5b4b2e571"
+  // Add credentials
 };
 
 export const app = initializeApp(firebaseConfig)
